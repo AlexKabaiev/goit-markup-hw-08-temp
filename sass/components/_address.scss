@@ -1,0 +1,22 @@
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address__list > .address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__map {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.address__mail,
+.address__tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
