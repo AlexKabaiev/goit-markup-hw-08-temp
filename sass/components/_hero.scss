@@ -1,20 +1,62 @@
-.hero { 
+.hero {
   background-image: var(--overlay), url('../images/hero-background-img-480.jpg');
   background-color: var(--color-background-hero);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
+  height: 400px;
+  @media screen and (min-width: 768px) {
+    background-image: var(--overlay), url('../images/hero-background-img-768.jpg');
+  }
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+    background-image: var(--overlay), url('../images/hero-background-img-1600.jpg');
+  }
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: url('../images/hero-background-img-480@2x.jpg');
   }
 }
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../images/hero-background-img-768@2x.jpg');
+  }
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../images/hero-background-img-1600@2x.jpg');
+  }
+}
 
+.hero__title {
+  width: 360px;
+  padding-top: 118px;
+  margin: 0 auto 30px auto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+    padding-top: 200px;
+  }
+}
 
+.hero__button {
+  width: 216px;
+  height: 50px;
+  &:hover,
+  &:focus {
+    background-color: rgba(33, 150, 243, 0.6);
+  }
+}
 
 // .hero {
 //   max-width: 1600px;
@@ -28,24 +70,3 @@
 //   background-position: center;
 //   text-align: center;
 // }
-
-.hero__title {
-//   width: 696px;
-//   margin: 0 auto 30px auto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-white);
-}
-
-.hero__button {
-  width: 216px;
-  height: 50px;
-  &:hover,
-  &:focus {
-    background-color: rgba(33, 150, 243, 0.6);
-  }
-}
