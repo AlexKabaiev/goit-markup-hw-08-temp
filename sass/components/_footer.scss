@@ -10,7 +10,16 @@
   margin-bottom: 20px;
 }
 
-// .footer__boxes {
-//   display: flex;
-//   align-items: baseline;
+.footer__boxes {
+   @media screen and (min-width: 1200px){
+    display: flex;
+  align-items: baseline;
+ }
+}
+
+// .footer__thump {
+//   @media screen and (min-width: 768px){
+//     display: flex;
+//   justify-content: space-around;
+//  }
 // }
