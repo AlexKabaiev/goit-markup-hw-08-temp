@@ -31,7 +31,6 @@
 }
 
 .hero__title {
-  width: 360px;
   padding-top: 118px;
   margin: 0 auto 30px auto;
   font-weight: 900;
@@ -41,6 +40,9 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
+  @media screen and (min-width: 480px) {
+    width: 360px;
+  }
   @media screen and (min-width: 1200px) {
     width: 696px;
     font-size: 44px;
