@@ -1,31 +1,31 @@
-// .filter {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   margin-bottom: 50px;
-//   gap: 8px;
-// }
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
 
-// .filter__button {
-//   padding: 6px 22px;
-//   height: 38px;
-//   font-family: 'Roboto';
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 1.63;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-//   color: var(--color-brand);
-//   background-color: #f5f4fa;
-//   border: 0;
-//   border-radius: 4px;
-//   cursor: pointer;
-//   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
-//   &:hover,
-//   &:focus {
-//   color: var(--color-white);
-//   background-color: var(--color-accent);
-//   }
-// }
+.filter__button {
+  padding: 6px 22px;
+  height: 38px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-brand);
+  background-color: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+  }
+}
 
 
