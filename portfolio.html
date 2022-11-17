@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-   <header class="header">
+    <header class="header">
       <div class="container">
         <nav class="header__nav">
           <a class="logo header__logo" href="/">Web<span class="logo--black-part">Studio</span></a>
@@ -32,7 +32,9 @@
               <a class="header__link" href="./index.html" target="_self">Студія</a>
             </li>
             <li class="header__item">
-              <a class="header__link current-page" href="./portfolio.html" target="_self">Портфоліо</a>
+              <a class="header__link current-page" href="./portfolio.html" target="_self"
+                >Портфоліо</a
+              >
             </li>
             <li class="header__item">
               <a class="header__link" href="#">Контакти</a>
@@ -83,13 +85,24 @@
           <ul class="project-card">
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card1.jpg"
-                  alt="Технокряк"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/techno-354.jpg 1x, ./images/techno-354@2x.jpg 2x"
+                    src="./images/techno-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/techno-370.jpg 1x, ./images/techno-370@2x.jpg 2x"
+                    src="./images/techno-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/techno-450.jpg 1x, ./images/techno-450@2x.jpg 2x"
+                    src="./images/techno-450.jpg"
+                    alt="Технокряк"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -105,13 +118,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card2.jpg"
-                  alt="Постер New Orlean vs Golden Star"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/poster-354.jpg 1x, ./images/poster-354@2x.jpg 2x"
+                    src="./images/poster-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/poster-370.jpg 1x, ./images/poster-370@2x.jpg 2x"
+                    src="./images/poster-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/poster-450.jpg 1x, ./images/poster-450@2x.jpg 2x"
+                    src="./images/poster-450.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -127,13 +151,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card3.jpg"
-                  alt="Ресторан Seafood"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/seafood-354.jpg 1x, ./images/seafood-354@2x.jpg 2x"
+                    src="./images/seafood-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/seafood-370.jpg 1x, ./images/seafood-370@2x.jpg 2x"
+                    src="./images/seafood-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/seafood-450.jpg 1x, ./images/seafood-450@2x.jpg 2x"
+                    src="./images/seafood-450.jpg"
+                    alt="Ресторан Seafood"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -149,13 +184,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card4.jpg"
-                  alt="Проєкт Prime"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/prime-354.jpg 1x, ./images/prime-354@2x.jpg 2x"
+                    src="./images/prime-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/prime-370.jpg 1x, ./images/prime-370@2x.jpg 2x"
+                    src="./images/prime-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/prime-450.jpg 1x, ./images/prime-450@2x.jpg 2x"
+                    src="./images/prime-450.jpg"
+                    alt="Проєкт Prime"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -171,13 +217,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card5.jpg"
-                  alt="Проєкт Boxes"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/boxes-354.jpg 1x, ./images/boxes-354@2x.jpg 2x"
+                    src="./images/boxes-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/boxes-370.jpg 1x, ./images/boxes-370@2x.jpg 2x"
+                    src="./images/boxes-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/boxes-450.jpg 1x, ./images/boxes-450@2x.jpg 2x"
+                    src="./images/boxes-450.jpg"
+                    alt="Проєкт Boxes"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -193,13 +250,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card6.jpg"
-                  alt="Inspiration has no Borders"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/borders-354.jpg 1x, ./images/borders-354@2x.jpg 2x"
+                    src="./images/borders-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/borders-370.jpg 1x, ./images/borders-370@2x.jpg 2x"
+                    src="./images/borders-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/borders-450.jpg 1x, ./images/borders-450@2x.jpg 2x"
+                    src="./images/borders-450.jpg"
+                    alt="Inspiration has no Borders"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -215,13 +283,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card7.jpg"
-                  alt="Видання Limited Edition"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/publication-354.jpg 1x, ./images/publication-354@2x.jpg 2x"
+                    src="./images/publication-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/publication-370.jpg 1x, ./images/publication-370@2x.jpg 2x"
+                    src="./images/publication-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/publication-450.jpg 1x, ./images/publication-450@2x.jpg 2x"
+                    src="./images/publication-450.jpg"
+                    alt="Видання Limited Edition"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -237,13 +316,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card8.jpg"
-                  alt="Проєкт LAB"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/lab-354.jpg 1x, ./images/lab-354@2x.jpg 2x"
+                    src="./images/lab-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/lab-370.jpg 1x, ./images/lab-370@2x.jpg 2x"
+                    src="./images/lab-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/lab-450.jpg 1x, ./images/lab-450@2x.jpg 2x"
+                    src="./images/lab-450.jpg"
+                    alt="Проєкт LAB"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -259,13 +349,24 @@
             </li>
             <li class="project-card__item">
               <div class="project-card__thumb">
-                <img
-                  class="project-card__img"
-                  src="./images/project-card9.jpg"
-                  alt="Growing Business"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/business-354.jpg 1x, ./images/business-354@2x.jpg 2x"
+                    src="./images/business-354.jpg"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/business-370.jpg 1x, ./images/business-370@2x.jpg 2x"
+                    src="./images/business-370.jpg"
+                  />
+                  <img
+                    class="project-card__img"
+                    srcset="./images/business-450.jpg 1x, ./images/business-450@2x.jpg 2x"
+                    src="./images/business-450.jpg"
+                    alt="Growing Business"
+                  />
+                </picture>
                 <div class="project-card__description">
                   <p>
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -287,11 +388,10 @@
       <div class="container">
         <div class="footer__boxes">
           <div class="footer__thump">
-            
             <address class="address">
               <a class="logo footer__logo" href="/"
-              >Web<span class="logo--white-part">Studio</span></a
-            >
+                >Web<span class="logo--white-part">Studio</span></a
+              >
               <ul class="address__list">
                 <li class="address__item">
                   <a class="address__map" href="https://goo.gl/maps/89aAq961mNhMFLVW8"
@@ -307,40 +407,40 @@
               </ul>
             </address>
             <div class="footer-social">
-            <p class="footer-social__text">приєднуйтесь</p>
-            <ul class="footer-social__list">
-              <li class="footer-social__item">
-                <a href="" class="footer-social__link">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a href="" class="footer-social__link">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a href="" class="footer-social__link">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a href="" class="footer-social__link">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+              <p class="footer-social__text">приєднуйтесь</p>
+              <ul class="footer-social__list">
+                <li class="footer-social__item">
+                  <a href="" class="footer-social__link">
+                    <svg class="footer-social__icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a href="" class="footer-social__link">
+                    <svg class="footer-social__icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a href="" class="footer-social__link">
+                    <svg class="footer-social__icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a href="" class="footer-social__link">
+                    <svg class="footer-social__icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          </div>
-          
+
           <form name="subscribe-form">
             <div class="subscribe-form__field">
               <div class="subscribe-form__send">
