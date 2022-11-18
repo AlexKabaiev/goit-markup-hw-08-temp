@@ -60,6 +60,15 @@ img {
      object-fit: cover;
 }
 
+section {
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  section {
+    margin-bottom: 94px;
+  }
+}
+
 /*Components*/
 .address {
   font-style: normal;
@@ -206,11 +215,6 @@ img {
   fill: var(--color-white);
 }
 
-.clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .clients__title {
   margin-bottom: 30px;
   font-weight: 700;
@@ -302,11 +306,6 @@ img {
 }
 .close-button:hover, .close-button:focus {
   fill: var(--color-accent);
-}
-
-.features {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .features__list {
@@ -1443,6 +1442,12 @@ img {
   background-color: var(--color-button);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .team__title {
