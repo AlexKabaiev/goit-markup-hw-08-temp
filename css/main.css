@@ -1514,7 +1514,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .team__card:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
